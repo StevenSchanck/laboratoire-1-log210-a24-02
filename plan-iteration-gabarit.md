@@ -2,58 +2,58 @@
 
 ## Étapes jalons
 
-> Dates clés montrant les échéances, comme date de début et de fin; étapes intermédiaires; points de synchronisation avec d'autres équipes; démonstrations; et ainsi de suite pour l'itération.
 
 | Étape jalon          | Date       |
 | :------------------- | :--------- |
-| Début de l'itération | 2019/05/02 |
-| Démo (séance 5)      | 2019/05/16 |
-| Fin de l'itération   | 2019/05/16 |
+| Début de l'itération | 2024/09/25 |
+| Démo (séance 5)      | 2024/10/09 |
+| Fin de l'itération   | 2024/10/09 |
 
 ## Objectifs clés
 
-> Afficher les objectifs clés pour l'itération, généralement un à cinq. **Les objectifs sont normalement la réalisation des exigences FURPS de l'énoncé.** Vérifier que les minima des points sont respectés pour l'itération avant de commencer!
 
-- Résoudre le problème de séparation des couches soulevé par l'auxiliaire d'enseignement lors de la dernière itération.
-- Présenter une démonstration technique de CU06 avec tests (x points).
-- Présenter une démonstration technique de CU07 avec tests (y points).
+- Établir les outils de développement sur le poste de chaque coéquipier (Git, GitHub, VS Code)
+- Faire l'implémentation et les tests de CU01a - Ajouter cours (1 point)
+- Faire l'implémentation et les tests de CU01b - Récupérer un cours (1 point)
+- Faire l'implémentation et les tests de CU01c - Retirer un cours (0.5 point)
+- Faire l'implémentation et les tests de U1 - Facteurs humains itération 1 (1 point)
 
 ## Affectations d'éléments de travail
-
-> Cette partie fait référence aux éléments de travail à compléter dans cette itération. C'est pour vous aider à répartir le travail dans l'équipe. Vous pouvez créer des tâches dans un autre logiciel (GitHub) pour cette partie si vous voulez.
 
 Les éléments de travail suivants seront abordés dans cette itération:
 
 | Nom / Description                | Priorité | [Taille estimée (points)](#commentEstimer "Comment estimer?") | Assigné à (nom) | Documents de référence |
 | -------------------------------- | -------: | --------------------------: | --------------- | ---------------------- |
-| CU06                             | 1        | 4                           | (tous)          | Exigences pour le lab  |
-|   CU06 - conception                |          |                             | Jacques-Éric    |                        |
-|   CU06 - test et implémentation     |          |                             | Hélène          |                        |
-|   CU06 - mise à jour des modèles |          |                             | Pierre          |                        |
-| CU07                             | 1        | 2                           | (tous)          | Exigences pour le lab  |
-| CU07 - conception                |          |                             | Jérémie         |                        |
-| CU07 - test et implémentation     |          |                             | Hélène          |                        |
-| CU07 - mise à jour des modèles |          |                             | Pierre          |                        |
+| CU01a                            | 1        | 11                           | Steven, Carine, Maksym           | Énoncé de laboratoire #1, exigences client (les sous-points héritent)  |
+| &nbsp;-Conception                           |        |    2                        | Steven, Carine          |   |
+|  &nbsp;-Implémentation                           |         |              5              | Maksym          |   | 
+| &nbsp;-Tests                          |         |  4                          | Maksym          |   |
+| CU01b                            | 1        |  9                         | Steven, Carine, Maksym          | Énoncé de laboratoire #1, exigences client (les sous-points héritent)   | 
+| &nbsp;-Conception                           |         |  2                          | Steven, Carine            |   | 
+|  &nbsp;-Implémentation                           |         |          4                | Maksym         |   | 
+| &nbsp;-Tests                          |         |     3                      | Maksym          |   |
+| CU01c                            | 3        | 9                             | Steven, Carine, Chris-Emmanuel          |    Énoncé de laboratoire #1, exigences client (les sous-points héritent)                    |
+| &nbsp; -Conception                           |         |    2                       | Steven, Carine            |   |
+|  &nbsp; -Implémentation                           |         |                     4       | Chris-Emmanuel          |   | 
+| &nbsp; -Tests                          |         |    3                        | Chris-Emmanuel          |   |
+| U1                            | 2        | 5                            |  Chris-Emmanuel          |    Énoncé de laboratoire #1, exigences client                    |
+|  &nbsp;&nbsp;-Implémentation                           |         |        5                    | Chris-Emmanuel           |   | 
+| Rapport                            | 2        | 5                            |  Carine, Steven Maksym, Chris-Emmanuel          |    Énoncé de laboratoire #1, exigences client                    |
+
+
+
 
 ## Problèmes
 
-> Afficher tous les problèmes à résoudre lors de l'itération. Mettre à jour le statut lorsque de nouvelles questions sont présentées au cours des réunions.
-> Si vous n'avez pas (eu) de problème, écrivez-le avec "Sans objet". Sinon, c'est comme si vous n'aviez pas fait la section.
-
 | Problème                                                                                             | Notes |
 | ---------------------------------------------------------------------------------------------------- | ----- |
-| L'Équipe ne comprend pas bien les "router handlers" dans Express                                     |       |
-| ~~Jacques-Éric n'a pas pu installer VSCode sur sa machine~~                                   |       |
-| Jacques-Éric a écrasé le code de plusieurs coéquipiers. | Jacques-Éric va suivre un tutoriel sur git pour mieux comprendre les conflits et pour utiliser les branches. |
-| Hélène part pour un match de Volleyball lors de la 3e semaine et ne sera pas disponible pour la démo |       |
+| Sans Objet                                    | -----      |
+
 
 ## Critères d'évaluation
 
-> Une brève description de la façon d'évaluer si les objectifs (définis plus haut) de haut niveau ont été atteints.
-> Vos critères d'évaluation doivent être objectifs (aucun membre de l'équipe ne peut avoir une opinion divergente) et quantifiables (sauf pour ceux évalués par l'auxiliaire d'enseignement). En voici des exemples:
-
-- 97% des cas de test passent.
-- Démonstration des fonctionnalités CU06 et CU07 pas à pas avec l'auxiliaire d'enseignement a reçu une réponse favorable.
+- 70% des cas de test passent.
+- Démonstration des fonctionnalités CU01 (CU01a, CU01b, CU01c) et U1 pas à pas avec l'auxiliaire d'enseignement a reçu une réponse favorable.
 
 ## Évaluation
 
@@ -64,9 +64,9 @@ Les éléments de travail suivants seront abordés dans cette itération:
 | Résumé | |
 | ------------------------------------- | ------------------------------------------------------------------------ |
 | Cible d'évaluation                    | Itération <!-- *Cela pourrait être toute l'itération ou simplement un composant spécifique* -->                            |
-| Date d'évaluation  |   2019/05/16 |
-| Participants       | **Coéquipiers** : Jérémie, Jacques-Éric, Pierre (Hélène avait une absence justifiée),<br> **auxiliaire d'enseignement** : Jonathan Mayhem |
-| État du projet     | 🟢 <!-- 🔴🟠🟢 *Rouge, Orange, ou Vert.* --> |
+| Date d'évaluation  |   2024/10/09 |
+| Participants       | **Coéquipiers** : Carine, Chris-Emmanuel, Maksym, Steven <br> **auxiliaire d'enseignement** : Guillaume Langlois |
+| État du projet     | 🔴 (il y a rien de fait encore) <!-- 🔴🟠🟢 *Rouge, Orange, ou Vert.* --> |
 
 ### Questions d'évaluation
 Regardez votre diagramme TPLANT et répondez aux questions suivantes?
